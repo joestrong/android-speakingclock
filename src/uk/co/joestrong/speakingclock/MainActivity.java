@@ -1,6 +1,8 @@
-package com.example.uk.co.joestrong.speakingclock;
+package uk.co.joestrong.speakingclock;
 
 import java.util.Calendar;
+
+import uk.co.joestrong.speakingclock.R;
 
 import android.R.string;
 import android.app.Activity;
@@ -124,6 +126,30 @@ public class MainActivity extends Activity {
     		break;
     	case 11:
     		clip = R.raw.eleven;
+    		break;
+    	case 12:
+    		clip = R.raw.twelve;
+    		break;
+    	case 13:
+    		clip = R.raw.thirteen;
+    		break;
+    	case 14:
+    		clip = R.raw.fourteen;
+    		break;
+    	case 15:
+    		clip = R.raw.fifteen;
+    		break;
+    	case 16:
+    		clip = R.raw.sixteen;
+    		break;
+    	case 17:
+    		clip = R.raw.seventeen;
+    		break;
+    	case 18:
+    		clip = R.raw.eighteen;
+    		break;
+    	case 19:
+    		clip = R.raw.nineteen;
     		break;
     	case 20:
     		clip = R.raw.twenty;
